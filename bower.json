@@ -1,0 +1,13 @@
+{
+  "name": "jquery-ui-multiselect",
+  "version": "1.0.0",
+  "main": [
+    "jquery.autocomplete.multiselect.js"
+  ],
+  "ignore": [
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=1.6"
+  }
+}
