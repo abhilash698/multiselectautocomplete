@@ -61,6 +61,7 @@ $.widget("ui.autocomplete", $.ui.autocomplete, {
                             })
                     )
                     .insertBefore(self.element);
+                $("<input name='filterValues[]' type='hidden'>").val(ui.item.label).insertBefore(self.element);
                 
                 self.selectedItems[ui.item.label] = ui.item;
                 self._value("");
